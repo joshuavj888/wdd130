@@ -20,10 +20,10 @@ Fonts are separated by a & */
   --headline-color-on-color: #103422; /* headlines on a colored background */ 
   --paragraph-color-on-white: #235050; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #235050; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #CECDD4  ;
-  --nav-link-color: #103422;
-  --nav-background-color: #AF3959;
-  --nav-hover-link-color: #CECDD4;
+  --paragraph-background-color: #cecdd4  ;
+  --nav-link-color: #cecdd4;
+  --nav-background-color: #af3959;
+  --nav-hover-link-color: #c3cdd4;
   --nav-hover-background-color: #39344f;
 }
 
@@ -35,7 +35,7 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 img {
   display: block;
