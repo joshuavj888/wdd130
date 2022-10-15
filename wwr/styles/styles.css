@@ -10,7 +10,7 @@ nav a {
     text-decoration: none;
 }
 
-#hero-msg h1, #hero-msg h4 {
+#hero_msg h1, #hero_msg h4 {
     text-align: center; 
 }
 
@@ -94,7 +94,7 @@ footer a:hover {
     width: 80px;
 }
 
-#hero-img {
+#hero_img {
     width: 100%;
 }
 
