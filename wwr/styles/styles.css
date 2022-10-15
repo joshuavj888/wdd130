@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Sacramento&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +10,7 @@ nav a {
     background-color: #af3959;
     color: #cecdd4;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero_msg h1, #hero_msg h4 {
@@ -22,6 +25,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
     background-color: #cecdd4;
@@ -29,6 +36,14 @@ main section {
 
 body {
     background-color: #cecdd4;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -42,8 +57,11 @@ nav a:hover {
 
 .book, .join {
     background-color: #ccc;
-    color: #cecdd4;
+    color: black;
     text-decoration: none;
+    pad: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -53,15 +71,26 @@ nav a:hover {
 
 .msg {
     background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #736b91;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-.home-title {
+foot .social img {
+    padding-top: 15px;
+}
+
+.home_grid {
+    font-family: Sacramento, "Brush Script MT", cursive;
     color: #39344f;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -69,11 +98,13 @@ h4 {
 }
 
 .msg h2{
+    font-family: Sacramento, "Brush Script MT", cursive;
     color: #39344f;
 }
 
 .msg p {
     color: #235050;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -92,6 +123,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero_img {
@@ -104,4 +136,15 @@ footer p{
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+.logo_link {
+    padding-top: 5px;
+}
+
+.rivers_card, .camping_card, .rapids_card {
+    margin: 200px;
+}
+.card_img {
+    border: 10px solid black;
 }
