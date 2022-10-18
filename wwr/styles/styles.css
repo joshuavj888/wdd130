@@ -7,13 +7,12 @@
 
 nav a {
     text-align: center;
-    background-color: #af3959;
     color: #cecdd4;
     text-decoration: none;
     padding: 35px;
 }
 
-#hero_msg h1, #hero_msg h4 {
+.hero_msg h1, .hero_msg h4 {
     text-align: center; 
 }
 
@@ -31,7 +30,7 @@ main section img {
 
 #background{
     height: 725px;
-    background-color: #cecdd4;
+    background-color: white;
 }
 
 body {
@@ -47,7 +46,7 @@ h2 {
 }
 
 header {
-    background-color: #cecdd4;
+    background-color: #af3959;
 }
 
 nav a:hover {
@@ -82,7 +81,7 @@ footer {
     margin-top: 200px;
 }
 
-foot .social img {
+footer .social img {
     padding-top: 15px;
 }
 
@@ -126,7 +125,7 @@ footer a:hover {
     padding-top: 10px;
 }
 
-#hero_img {
+#hero-img {
     width: 100%;
 }
 
