@@ -101,11 +101,20 @@ nav a:hover {
 
 .msg {
     background-color: white;
-    line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px black;
+}
+
+.msg h2 {
+    line-height: 1.5em;
+    font-size: 36px;
+}
+
+.msg p {
+    line-height: 1em;
+    font-size: 36px;
 }
 
 footer {
@@ -122,7 +131,7 @@ footer .social img {
     padding-top: 15px;
 }
 
-.home-grid {
+.home_grid {
     font-family: Sacramento, "Brush Script MT", cursive;
     color: #39344f;
     font-size: 2em;
@@ -191,6 +200,7 @@ footer p a:hover {
     border: 10px solid black;
     transition: .5s;
     box-shadow: 5px 5px 10px black;
+    width: 100%;
 }
 
 .card-img:hover {
@@ -198,32 +208,29 @@ footer p a:hover {
     transform: scale(1.1);
 }
 
-.card-img, .mountains {
-    width: 100%;
-}
-
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
-    margin: 200px;
+    margin: 200px 0;
 }
 
 .camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
-    margin: 200px;
+    margin: 200px 0;
 }
 
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
-    margin: 200px;
+    margin: 200px 0;
 }
 
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px black;
+    width: 100%;
 }
 
 @media screen and (max-width: 900px) {
