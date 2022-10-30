@@ -108,13 +108,16 @@ nav a:hover {
 }
 
 .msg h2 {
-    line-height: 1.5em;
-    font-size: 36px;
+    font-family: Sacramento, "Brush Script MT", cursive;
+    color: #39344f;
+    font-size: 0.5em;
 }
 
 .msg p {
-    line-height: 1em;
-    font-size: 36px;
+    font-family: Sacramento, "Brush Script MT", cursive;
+    color: #235050;
+    padding-bottom: 15px;
+    font-size: 0.5em;
 }
 
 footer {
@@ -147,16 +150,6 @@ footer .social img {
 
 h4 {
     color: #39344f;
-}
-
-.msg h2{
-    font-family: Sacramento, "Brush Script MT", cursive;
-    color: #39344f;
-}
-
-.msg p {
-    color: #235050;
-    padding-bottom: 15px;
 }
 
 footer a {
