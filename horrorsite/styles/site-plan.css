@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Handlee&family=Nanum+Brush+Script&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: #7D5BA6;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Bradley Hand", "Brush Script M7", cursive;
-  --paragraph-font: "American Typewriter", Tahoma, Trebuchet;
+  --heading-font: 'Handlee', 'Nanum Brush Script', cursive;
+  --paragraph-font: 'Dosis', Tahoma, Trebuchet;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #262A10;  /* headlines on a white background */ 

@@ -133,6 +133,7 @@ footer .social img {
 
 .home-title {
     color: white;
+    margin-top: 10px;
 }
 
 h4 {
@@ -186,9 +187,6 @@ footer p a:hover {
     align-self: center;
 }
 
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px;
-}
 .card-img {
     border: 10px solid black;
     transition: .5s;
@@ -207,16 +205,19 @@ footer p a:hover {
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
+    margin: 200px;
 }
 
 .camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
+    margin: 200px;
 }
 
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
+    margin: 200px;
 }
 
 .mountains {
@@ -263,6 +264,6 @@ footer p a:hover {
         margin: 0 auto;
     }
     footer {
-        margin-top: 25px;
+        margin-top: 200px;
     }
 }
