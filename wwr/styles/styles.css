@@ -226,6 +226,28 @@ footer p a:hover {
     width: 100%;
 }
 
+#hero-box-faq {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+    z-index: -1;
+    width: 100%;
+}
+
+.home-title-faq {
+    font-size: 300%;
+    margin-top: 1.5em;
+}
+
+.faq-search {
+    font: 16px;
+}
+
+.q_and_a {
+    border: solid black;
+    background-color: #6f7364;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
