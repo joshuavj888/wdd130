@@ -237,6 +237,21 @@ footer p a:hover {
     background-color: #6f7364;
 }
 
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 100;
+    left: .5em;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    /* display: none;       */
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
