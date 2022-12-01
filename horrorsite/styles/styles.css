@@ -23,10 +23,9 @@
     --nav-hover-background-color: #626A10;
 }
 
-  
 header {
     display: grid;
-    grid-template-columns: 200 px repeat(3, 1fr);
+    grid-template-columns: 8em repeat(3, 1fr);
     padding: 1em;
     text-align: center;
     color: var(--paragraph-color-on-color);
@@ -40,16 +39,12 @@ nav {
     text-align: center;
     font-size: 1.2em;
 }
-/* nav  {
-    list-style-type: none;
-    display: flex;
-} */
 
 nav a {
     padding: 3em;
     min-width: 120px;
     text-decoration: none;
-    font-size: large;
+    font-size: 2em;
 }
 
 nav a:link, nav a:visited {
@@ -70,7 +65,7 @@ nav a:hover {
 
 main {
     display: grid;
-    grid-template: 600 px 300 px / 100px 1fr; 
+    grid-area: 600px 300px / 100px 1fr; 
 }
 
 .banner {
@@ -81,12 +76,20 @@ main {
     width: 100%;
 }
 
+main h2 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
 
 main img {
     grid-column: 1/2;
     width: 100px;
     margin-left: auto;
     margin-right: auto;
+}
+
+main p {
+    font-size: 1.2em;
 }
 
 .content p {
@@ -128,6 +131,7 @@ footer:nth-child(2) {
 }
 
 body {
+    font-family: var(--paragraph-font);
     background-color: var(--paragraph-background-color);
     color: var(--paragraph-color-on-color)
 }
