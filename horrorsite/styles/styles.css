@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Handlee&family=Nanum+Brush+Script&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #262A10   ;
+    --secondary-color: #CACAAA ;
+    --accent1-color: #C84C09;
+    --accent2-color: #7D5BA6;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Handlee', 'Nanum Brush Script', cursive;
+    --paragraph-font: 'Dosis', Tahoma, Trebuchet;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #262A10;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #262a10; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #7D5BA6  ;
+    --nav-link-color: black;
+    --nav-background-color: #c84c09;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #626A10;
+}
+
+  
+header {
+    display: grid;
+    grid-template-columns: 200 px repeat(3, 1fr);
+    padding: 1em;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+
+nav {
+    grid-column: 2/5;
+    background-color: var(--nav-background-color);
+    line-height: 4.5em;
+    text-align: center;
+    font-size: 1.2em;
+}
+/* nav  {
+    list-style-type: none;
+    display: flex;
+} */
+
+nav a {
+    padding: 3em;
+    min-width: 120px;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+#logo_link {
+    grid-column: 1/2;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+main {
+    display: grid;
+    grid-template: 600 px 300 px / 100px 1fr; 
+}
+
+.banner {
+    grid-row: 1/2;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+main img {
+    grid-column: 1/2;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content p {
+    grid-row: 2/ span;
+}
+
+nav, footer {
+    flex-direction: column;
+}
+
+
+.logo {
+    width: 80px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr repeat(3, 100px);
+    background-color: var(--nav-background-color);
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+footer p {
+    font-size: 2em;
+}
+
+footer:nth-child(1) {
+    grid-column: 1/2;
+}
+
+footer:nth-child(2) {
+    grid-column: 2/3;
+}
+
+.social {
+    grid-column: 3/span 3;
+    margin: auto;
+}
+
+body {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color)
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 200px;
+    }
+}
